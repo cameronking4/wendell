@@ -1,0 +1,224 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN">
+<html lang="en" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="keywords" content="Wendell, Adjetey, Wendell Adjetey, Yale, Harvard, Teaching, University,  Research"/>
+    <meta name="description" content="Personal Website">
+    <meta name="author" content="Cameron King">
+    <!-- Change the site title -->
+    <title>Wendell Adjetey</title>
+    <!-- You can regenerate the favicons as you wish using http://realfavicongenerator.net/ -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="favicon/manifest.json">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="theme-color" content="#ffffff">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,400i,700|Roboto+Condensed:200,300,300i,400,700|Roboto+Mono" rel="stylesheet">
+	<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/prettyPhoto.css"/>
+	<link rel="stylesheet" href="css/flickity.css"/>
+	<link rel="stylesheet" href="css/animate.css"/>
+	<link rel="stylesheet" href="css/custom.css">
+    <!-- Modernizr -->
+    <script src="js/modernizr-custom.js"></script>
+</head>
+
+<body>
+	
+<!-- status spinner showing while loading the page -->
+<div id="preloader"></div>
+
+<!-- HEADER -->
+<div> 
+<header>
+    <nav class="navbar navbar-toggleable-md navbar-light bg-faded fixed-top">
+        <div class=" clearfix container">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#"><img src="img/logo.png" alt="bestAG"></a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-0 ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#hero">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="research.html">Research</a>
+                    </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="teaching.html">Teaching</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="media.html">Media</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+</div>
+<!-- HEADER END -->
+<br> <br>
+    <!-- ABOUT -->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-12">
+                    <div>
+                        <h2>Welcome</h2>
+                    </div>
+                    <div id="about-text">
+                        <p>
+                           My name is Wendell Nii Laryea Adjetey, and I am the W. L. Mackenzie King Postdoctoral Fellow at the Weatherhead Center for International Affairs and Lecturer in the Department of History at Harvard University. 
+.
+                        </p>
+                        <p>
+                            I am a historian, humanitarian, and award-winning social entrepreneur. I am deeply committed to advancing pluralism, economic upliftment, and social change in North America and sub-Saharan Africa. 
+
+                        </p>
+						
+						<a href="#"> Read More</a> <a href="#"> Request CV</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-12">
+                    <div class="photo-wrap">
+                        <img src="img/photo.jpg" class="photo img-fluid" alt=""/>
+                        <div class="photo-overlay">
+                            <p> Photography by Photographer's Name</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ABOUT END -->
+
+    <!-- CONTACT FORM  -->
+    <section id="contact">
+        <div class="section-header">
+            <div>
+                <h2>Contact Me</h2>
+                <p>Please fill the form below. I will contact you as soon as possible.</p>
+            </div>
+        </div>
+        <div class="container">
+            <div id="form-messages"></div>
+            <div class="form-wrap">
+                <form id="contact-form" action="api/contact.php" method="post" autocomplete="off">
+                    <div class="row">
+                        <div class="col-12 col-sm-6">
+                            <input class="form-control" type="text" placeholder="Your Name" name="name" id="name"
+                                   required/>
+                            <input class="form-control" type="text" placeholder="E-mail" name="email" id="email"
+                                   required/>
+                            <input class="form-control" type="text" placeholder="Subject" name="subject" id="subject"
+                                   required/>
+                        </div>
+                        <div class="col-12 col-sm-6">
+                            <textarea class="form-control" placeholder="Your Message" rows="7" name="message"
+                                      id="message" required></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <button class="btn btn-primary" type="submit">SEND MESSAGE</button>
+                        </div>
+                    </div>
+                </form>
+                <div id="ajaxLoad"></div>
+            </div>
+        </div>
+    </section>
+    <!-- CONTACT FORM  END -->
+
+<div id="footer-wrap">
+
+    <!-- CONTACT INFO  -->
+    <div id="contact2">
+        <div class="container">
+            <div class="row">
+                <div class="col-12" id="googleMap"></div>
+            </div>
+            <div class="row withMap">
+                <div class="col-12 col-md-8">
+                    <p>Donec quis tincidunt nisl. Mauris ac urna libero. Aliquam cursus, augue eu efficitur dignissim,
+                        risus mauris porta diam, in bibendum lectus enim vitae risus. Maecenas sit amet pretium quam, in
+                        tristique ante. Sed consequat rutrum metus, sit amet interdum risus consectetur.
+                        Sed est arcu, malesuada at ipsum nec, hendrerit cursus enim. Ut in lorem finibus,
+                        vestibulum nulla a, pellentesque mauris.
+                    </p>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div>
+                        <i class="fa fa-map-marker"> </i>223 John Adam Street, London, UK.
+                    </div>
+                    <div>
+                        <i class="fa fa-phone"> </i>800 123-456-789
+                    </div>
+                    <div>
+                        <i class="fa fa-envelope"> </i>your@email.com
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- CONTACT INFO END -->
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-6">
+                    <p>Copyright &copy; 2018 Wendell Adjetey</p>
+                </div>
+                <div class="col-12 col-sm-6 social">
+                    <p class="pull-right">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-google"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-tumblr"></i></a>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                        <a href="#"><i class="fa fa-youtube"></i></a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- FOOTER END -->
+
+</div>
+
+<!-- jQuery first, then Tether, then Bootstrap JS. -->
+<script src="js/jquery-3.1.1.min.js"></script>
+<script src="js/jquery-migrate-3.0.0.min.js"></script>
+<script src="js/jquery.validate.min.js"></script>
+<script src="js/tether.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.bootstrap-autohidingnavbar.min.js"></script>
+<script src="js/jquery.stellar.min.js"></script>
+<script src="js/jquery.prettyPhoto.js"></script>
+<script src="js/flickity.pkgd.min.js"></script>
+<script src="js/isotope.pkgd.min.js"></script>
+<script src="js/jquery.debouncedresize.js"></script>
+<script src="js/jquery.waypoints.min.js"></script>
+<script src="js/typed.min.js"></script>
+<script src="js/particles.min.js"></script>
+<script src="js/config.js"></script>
+<script src="js/custom.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAI4pu8_vaoGSCaiW_HQV06I639cIsbdWY&callback=myMap"></script>
+
+</body>
+</html>
