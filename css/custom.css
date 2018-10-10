@@ -25,12 +25,18 @@
 /** GENERAL TEMPLATE STYLES                                                                                       */
 /******************************************************************************************************************/
 
+
+.wendell {
+	
+}
+
+
 html {
     overflow-x: hidden;
 }
 
 body {
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Bell MT';
     background: #fff;
     -webkit-font-smoothing: antialiased;
     -moz-font-smoothing: antialiased;
@@ -43,7 +49,7 @@ body {
 
 a {
     transition: all 0.6s ease 0s;
-    color: #6893ff;
+    color: #747474;
     text-decoration: none;
 }
 
@@ -57,7 +63,7 @@ h1 {
     font-weight: 700;
     text-transform: uppercase;
     color: #333;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Times New Roman';
 }
 
 h2 {
@@ -72,7 +78,7 @@ h2 {
 h2:after {
     position: absolute;
     width: 100px;
-    background-color: #6893ff;
+    background-color: #747474;
     bottom: 0;
     content: "";
     height: 2px;
@@ -138,8 +144,8 @@ q, p {
 
 .btn-primary {
     padding: 12px 26px 13px 26px;
-    background: #6893ff;
-    border: 1px solid #6893ff;
+    background: #747474;
+    border: 1px solid #747474;
     text-transform: uppercase;
     text-shadow: none;
     margin: 2px 0;
@@ -180,7 +186,7 @@ a.btn-secondary {
     padding: 6px 17px 7px 17px;
     font-size: 0.7rem;
     border-radius: 30px;
-    background: #6893ff;
+    background: #747474;
     border: 0;
     color: #fff !important;
     cursor: pointer;
@@ -383,11 +389,11 @@ nav ul li {
     }
 
     .navbar-nav > li > a:hover {
-        border-bottom: 3px solid #0048ff;
+        border-bottom: 3px solid #747474;
     }
 
     .navbar-nav > li > a.active:hover {
-        border-bottom: 3px solid #0048ff;
+        border-bottom: 3px solid #747474;
     }
 }
 
@@ -585,13 +591,14 @@ nav ul li {
 }
 
 #about p {
-    text-align: left;
-    color: #666;
+    color: #434242;
     letter-spacing: 0.5px;
 }
 
 #about-text {
-    margin-top: 1rem;
+    margin-top: 2rem;
+	line-height: 28px;
+	text-align: justify;
 }
 
 .photo-wrap {
@@ -617,7 +624,7 @@ nav ul li {
     background-color: rgba(255, 255, 255, 0.8);
     overflow: hidden;
     width: 0;
-    height: 100%;
+    height: 10%;
     transition: .5s ease;
 }
 
@@ -664,7 +671,7 @@ nav ul li {
 }
 
 #services .circle {
-    background-color: #6893ff;
+    background-color: #747474;
     border-radius: 100px;
     padding: 6px;
     width: 50px;
@@ -786,7 +793,7 @@ nav ul li {
     padding: 6px 17px 7px 17px;
     font-size: 0.7rem;
     border-radius: 30px;
-    background: #6893ff;
+    background: #747474;
     border: 0;
     color: #fff !important;
     cursor: pointer;
@@ -858,7 +865,7 @@ nav ul li {
     height: 16px;
     border-radius: 50%;
     border: 2px solid #F5F7FA;
-    background: #6893ff;
+    background: #747474;
     margin-top: 10px;
     z-index: 9999
 }
@@ -1057,7 +1064,7 @@ nav ul li {
     padding: 20px 30px;
 }
 #subscribe .form-control:focus {
-    border-color: #6893ff;
+    border-color: #747474;
 }
 
 #subscribe input {
@@ -1250,7 +1257,7 @@ nav ul li {
 }
 
 .footer .fa:hover {
-    color: #6893ff;
+    color: #747474;
 }
 
 /******************************************************************************************************************/
