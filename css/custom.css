@@ -325,7 +325,7 @@ nav a.nav-link {
 
     .navbar {
         background-color: #fff;
-        padding-bottom: 20px;
+        padding-bottom: 40px;
     }
 
     .header-overlay {
@@ -344,7 +344,7 @@ nav a.nav-link {
         min-height: 76px;
         text-align: center;
         background-color: #fff;
-        padding-top: 16px;
+        padding-top: 46px;
     }
 
     .navbar-nav > li > a {
@@ -1034,6 +1034,10 @@ nav ul li {
     font-weight: 300;
 }
 
+.bell {
+	font-family: "Bell MT"
+}
+
 /******************************************************************************************************************/
 /** SUBSCRIBE FORM                                                                                                  */
 /******************************************************************************************************************/
@@ -1289,24 +1293,9 @@ nav ul li {
     min-height: inherit;
 }
 
-#blog-post h2 {
-    color: #fff;
-}
-
-#blog-post h2:after {
-    position: absolute;
-    width: 100px;
-    background-color: #6893ff;
-    bottom: 0;
-    content: "";
-    height: 2px;
-    left: 0;
-    margin: 0;
-    right: 0;
-}
 
 #blog-post section {
-    text-align: left;
+    text-align: justify;
 }
 
 #blog-post h3 {
@@ -1352,8 +1341,8 @@ nav ul li {
     color: #0048ff;
 }
 
-#blog-post p {
-    font-weight: 300;
+#blog-post h2 {
+   font-family: "Bell MT"
 }
 
 #blog-post label {
@@ -1432,4 +1421,9 @@ nav ul li {
     left: 0;
     margin: 0;
     right: 0;
+}
+
+
+.myNav a{
+	font-size: 16px;
 }
