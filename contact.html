@@ -91,47 +91,50 @@
 	<a href="media.html" onclick="w3_close()" class="w3-bar-item w3-button">Media</a>
       <a href="contact.html" onclick="w3_close()" class="w3-bar-item w3-button">Contact</a>
 </nav>
+<!-- HEADER END -->
 
 <div id="content-wrap">
-	<br>
-    <!-- ABOUT -->
-    <section id="about">
+
+<br>
+	
+
+    <!-- CONTACT FORM  -->
+    <section id="contact">
+        <div class="section-header">
+            <div>
+                <h2>Contact Me</h2>
+                <p>Please complete the form below. I will contact you as soon as possible.</p>
+            </div>
+        </div>
         <div class="container">
-			 <div>
-                        <h2>About Me</h2>
+            <div id="form-messages"></div>
+            <div class="form-wrap">
+                <form id="contact-form" action="api/contact.php" method="post" autocomplete="off">
+                    <div class="row">
+                        <div class="col-12 col-sm-6">
+                            <input class="form-control" type="text" placeholder="Your Name" name="name" id="name"
+                                   required/>
+                            <input class="form-control" type="text" placeholder="E-mail" name="email" id="email"
+                                   required/>
+                            <input class="form-control" type="text" placeholder="Subject" name="subject" id="subject"
+                                   required/>
+                        </div>
+                        <div class="col-12 col-sm-6">
+                            <textarea class="form-control" placeholder="Your Message" rows="7" name="message"
+                                      id="message" required></textarea>
+                        </div>
                     </div>
-            <div class="row">
-                <div class="col-lg-6 col-12">
-                    <div id="about-text">
-						<p>
-                            My family originated from Teshie, one of the Gã (Accra) towns on the Gulf of Guinea. 
-							My roots in what is present-day Ghana date back to the late fifteenth century when my forbears arrived on the Accra Plains in wave migrations from the “primordial river” in the east. <br> <br>
-							My lineal forbears, in fact, founded Teshie in the late seventeenth century as a garrison town, after the outbreak of a civil conflict in La, our previous settlement. 
-							Formidable and feared, the pioneers of Teshie were one of the only coastal peoples who resisted successfully the repeated incursions, apocalyptic wars, and slave raids that hallmarked the rise of the Atlantic world. 
-							My ancestral clan, Atrékor-Wé, which my forbears founded circa 1710, is in the Klé Musum quarters of Teshie and is the oldest and highest-ranking clan. 
-							I grew up speaking Gã, my ancestral language, and have taught myself to read and write it.
-                        </p>
-     
-                        <p>
-                          I am a first-generation high-school attendant and graduate.* I earned (with distinction) the Ph.D., M.Phil., and M.A. at Yale University in the Department of History and Department of African American Studies. At the University of Toronto (University of St. Michael’s College), I earned my honors B.A. in History and Political Science with high distinction and M.A. in Political Science and Ethnic, Immigration, and Pluralism Studies.
-                        </p>
+                    <div class="row">
+                        <div class="col-12">
+                            <button class="btn btn-primary" type="submit">SEND MESSAGE</button>
+                        </div>
                     </div>
-                </div>
-				
-				
-                <div class="col-lg-6 col-12">
-                    <div id="about-text">
-						<img width = "100%" style = "margin-bottom: 5px; padding:5px;" src= "img/testimonials-bg%202.jpg"> 
-                        <br><p> <br>
-                            *I am passionate about the recruitment and retention of under-represented persons in post-secondary institutions. I worked for several years in the Office for Graduate Student Development and Diversity at Yale University, supporting the efforts of senior administrators. I especially welcome inquiries from first-generation high-school and college students about any aspects of the transition to college, or graduate or professional school. 
-                        </p>
-                    </div>
-                </div>
+                </form>
+                <div id="ajaxLoad"></div>
             </div>
         </div>
     </section>
-    <!-- ABOUT END -->
-
+    <!-- CONTACT FORM  END -->
 
     <!-- FOOTER -->
     <footer class="footer">
@@ -142,7 +145,6 @@
         </div>
     </footer>
     <!-- FOOTER END -->
-
 
 </div>
 

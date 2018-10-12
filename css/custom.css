@@ -1091,12 +1091,12 @@ nav ul li {
 /******************************************************************************************************************/
 
 #contact {
-    background: #333;
-    color: #fff;
+    background: #fff;
+    color: #474747;
 }
 
 #contact h2 {
-    color: #fff;
+    color: #000;
 }
 
 #contact .container {
@@ -1122,7 +1122,7 @@ nav ul li {
 }
 
 #contact p {
-    color: #fff;
+    color: #474747;
     letter-spacing: 0.5px;
 }
 
@@ -1135,27 +1135,27 @@ nav ul li {
 }
 
 #contact .form-control::-webkit-input-placeholder {
-    color: #c0c0c0;
+    color: #474747;
     font-weight: 200;
 }
 
 #contact .form-control:-moz-placeholder {
-    color: #c0c0c0;
+    color: #474747;
     font-weight: 200;
 }
 
 #contact .form-control::-moz-placeholder {
-    color: #c0c0c0;
+    color: #474747;
     font-weight: 200;
 }
 
 #contact .form-control:-ms-input-placeholder {
-    color: #c0c0c0;
+    color: #474747;
     font-weight: 200;
 }
 
 #contact .section-header p {
-    color: #f0f0f0;
+    color: #474747;
     letter-spacing: 0.5px;
 }
 
@@ -1178,7 +1178,7 @@ nav ul li {
 }
 
 #contact input:focus, #contact textarea:focus {
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid #000;
 }
 
 #contact textarea {
@@ -1186,7 +1186,7 @@ nav ul li {
 }
 
 #contact2 {
-    color: #fff;
+    color: #000;
     background: #444;
     margin: 0;
     padding: 2rem 0;
