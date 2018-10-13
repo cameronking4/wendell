@@ -138,9 +138,10 @@ q, p {
     font-family: 'Bell MT';
     border-radius: 30px;
     border: 0;
-    color: #FFF;
+    color: #474747;
     cursor: pointer;
     outline: 0;
+	background-color: #bfbfbf
 }
 
 .btn-primary {
@@ -157,7 +158,7 @@ a.btn-primary {
 }
 
 .btn-primary:hover, .btn-primary:active, .btn-primary:focus {
-    background: #0048ff;
+    background: #fff;
     -webkit-box-shadow: 0 0 0 2px #0048ff;
     box-shadow: 0 0 0 2px #0048ff;
     border-color: #0048ff;
