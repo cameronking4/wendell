@@ -1181,7 +1181,7 @@ nav ul li {
     border: 10px;
     transition: all .3s;
     border: 2px solid #bbb;
-    color: #fff;
+    color: #000;
     font-family: 'Roboto Condensed', sans-serif;    
 }
 
@@ -1207,20 +1207,20 @@ nav ul li {
 
 #contact2 .withMap p {
     text-align: left;
-    color: #fff;
+    color: #000;
     letter-spacing: 0.5px;
 }
 
 #contact2 .withMap div {
     font-size: 1.1rem;
     text-align: left;
-    color: #eee;
+    color: #000;
     letter-spacing: 0.5px;
 }
 
 #contact2 .withMap .fa {
     padding-right: 10px;
-    color: #eee;
+    color: #000;
     font-size: 1.2rem;
 }
 
