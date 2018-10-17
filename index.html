@@ -89,8 +89,8 @@
                             Currently, I am the W. L. Mackenzie King Postdoctoral Fellow at the Weatherhead Center for International Affairs and a Lecturer in the Department of History at Harvard University.
 
                         </p>
-						
-						<a class = "btn" href="about.html"> Read More</a> <a  class = "btn" href="contact.html"> Request CV</a> <br>
+						<center> 
+						<a class = "btn" href="about.html"> Read More</a> <a  class = "btn" href="contact.html"> Request CV</a> <br> </center>
                     </div>
                 </div>
                 <div class="col-lg-6 col-12">
@@ -100,7 +100,11 @@
                             <p> Photography by Taha Muharuma</p>
                         </div>
                     </div>
-					<center> <p style="margin-top:10px;"> Historian . Humanitarian . Social Entrepreneur . </p></center>
+					<center> <p style="margin-top:10px;"> Historian . Humanitarian . Social Entrepreneur . </p>
+					<audio id="background_audio" controls>
+  <source src="name.wav" />
+</audio> 
+					</center>
                 </div>
             </div>
         </div>
@@ -217,7 +221,21 @@ function w3_open() {
 function w3_close() {
     mySidebar.style.display = "none";
 }
+	
 </script>
+	
+	
+	<script> 
+		
+		var audio = document.getElementById('background_audio');
+
+document.getElementById('mute').addEventListener('click', function (e)
+{
+    e = e || window.event;
+    audio.muted = !audio.muted;
+    e.preventDefault();
+}, false);
+	</script>
 <!-- jQuery first, then Tether, then Bootstrap JS. -->
 <script src="js/jquery-3.1.1.min.js"></script>
 <script src="js/jquery-migrate-3.0.0.min.js"></script>
