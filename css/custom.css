@@ -148,7 +148,7 @@ q, p {
 .btn-primary {
     padding: 12px 26px 13px 26px;
     background: #bfbfbf;
-    border: 1px solid #747474;
+/*    border: 1px solid #747474;*/
     text-transform: capitalize;
     text-shadow: none;
     margin: 2px 0;
@@ -164,10 +164,13 @@ a.btn-primary {
 }
 	
 	.btn-primary:hover, .btn-primary:active, .btn-primary:focus {
-    background: #474747;
+    background: #000;
+		color: #fff
+/*
     -webkit-box-shadow: 0 0 0 2px #747474;
     box-shadow: 0 0 0 2px #747474;
     border-color: #000;
+*/
 }
 
 .btn-secondary {
@@ -1634,4 +1637,8 @@ label {
 
 .speakerplay {
   background-position: 0 0;
+}
+
+.center{
+	justify-content: center;
 }
