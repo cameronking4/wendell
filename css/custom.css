@@ -1173,12 +1173,13 @@ nav ul li {
     margin: 26px 0;
     border-radius: 0;
 	border-color: black;
+	
 }
 #contact input, #contact textarea {
     width: 100%;
     padding: 10px;
+	background-color: #e3e3e3;
     box-sizing: border-box;
-    background: none;
     outline: none;
     resize: none;
     border: 10px;
