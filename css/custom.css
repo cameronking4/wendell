@@ -135,6 +135,10 @@ q, p {
     background: url('../img/squares.gif') center no-repeat #fff;
 }
 
+
+.shown{
+	display: none;
+}
 .btn {
     font-family: 'Bell MT';
     border-radius: 30px;
@@ -269,6 +273,10 @@ section, .section {
         margin-bottom: 2rem;
         font-size: 1.2rem;
     }
+	
+	.shown {
+		display: inline-block;
+	}
 }
 
 @keyframes blink {
@@ -1610,9 +1618,26 @@ label {
   .circle, .date {
     display: none;
   }
+  
+	.btn {
+		display: none;
+	}
+	
+  .btnoff {
+    display: block;
+    font-family: 'Bell MT';
+    border-radius: 30px;
+    border: 0;
+    color: #000;
+    cursor: pointer;
+    outline: 0;
+	background-color: #bfbfbf;
+	}
 }
 
-
+.btnoff {
+	display: none;
+}
 
 #player {
   height: 0;
